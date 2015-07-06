@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Welcome to ChipJS"
 date:   2015-07-05 22:01:59
 categories: chip news
 ---
