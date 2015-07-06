@@ -1,25 +1,11 @@
 ---
 layout: post
 title:  "Welcome to Jekyll!"
-date:   2015-06-02 13:21:59
-categories: jekyll update
+date:   2015-07-05 22:01:59
+categories: chip news
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+After almost a year of development and *testing* under heavy production use, we are proud to present ChipJS - an ULTRA-lightweight and insanely powerful Javascript framework.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+Chip may stand on the shoulders of giants, but its footing is all its own. With its dead-simple implementation and an ûber-effecient approach to framing up your application - Chip is a win/win.
 
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
-
-[jekyll]:      http://jekyllrb.com
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-help]: https://github.com/jekyll/jekyll-help
+Since the release of Chip v1, we've been hard at work on v2 with an even faster, lighter footprint. Follow along as we create a new kind of Javascipt framework expereince... friendly - with a smile. :)

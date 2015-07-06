@@ -4,8 +4,8 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Another day, another Javascript framework right? But, what if that framework was unlike any other? ChipJS, or simply, "Chip" is exactly that.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+When the sports team management application, [TeamSnap](https://teamsnap.com), decided to migrate its web application and over 6 million users to a single page Javascript application, it carefully considered its options and the potential benefits / setbacks with the *then* current offering of Javascript frameworks. It was quickly realized that the framework needed to be lighter, and more nimble than what was on the table - and Chip was born.
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+Proven in the crucible of production, with billions of inits and gigabytes of data digested, Chip, has proven its effectiveness, and seeks to grow ever smaller... ever faster.
