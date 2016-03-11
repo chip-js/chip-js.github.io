@@ -1,3 +1,8 @@
+---
+layout: default
+---
+
+
 # Fragment's Polyfills
 
 Because fragments.js relies on a few new browser features it has simple polyfills to ensure these features exist. This

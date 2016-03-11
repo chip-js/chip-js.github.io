@@ -1,3 +1,8 @@
+---
+layout: default
+---
+
+
 # Template
 
 A template is an instance of [`DocumentFragment`](https://developer.mozilla.org/en-US/docs/Web/API/DocumentFragment), a
