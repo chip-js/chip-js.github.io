@@ -13,7 +13,7 @@ title: Chip Documentation
 Chip is made up of many smaller modules. These modules are created such that you could roll your own framework if you
 wanted to. But the real benefit is that each module is focused on one specific job.
 
-* **[chip-js](chip-js/)** A powerful JavaScript framework
+* **[chip-js](chip/)** A powerful JavaScript framework
 
 * **[fragments-js](fragments-js/)** An ultra-fast templating and data-binding library for front-end JavaScript
   applications.
