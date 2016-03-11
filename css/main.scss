@@ -3,10 +3,10 @@
 ---
 @charset "utf-8";
 
-@import url(http://fonts.googleapis.com/css?family=Josefin+Sans:400,700,400italic,700italic|Josefin+Slab);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic|Overlock);
 
 // Our variables
-$base-font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
+$base-font-family: "Open Sans", Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
@@ -27,7 +27,7 @@ $content-width:    800px;
 $on-palm:          600px;
 $on-laptop:        800px;
 
-$header-font-family: "Josefin Slab", Helvetica, Arial, sans-serif;
+$header-font-family: Overlock, "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 $code-font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
 
 

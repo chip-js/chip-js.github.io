@@ -15,6 +15,12 @@
 
     {% include footer.html %}
 
+    <script>
+      (function() {
+        Array.prototype.forEach.call(document.querySelectorAll('a[href$=".md"]'), function(link) {
+          link.href = link.href.replace(/\.md$/, '');
+        });
+      })();
+    </script>
   </body>
-
 </html>
