@@ -21,7 +21,7 @@ npm install observations-js
 
 To use observations:
 
-```
+```js
 var observations = require('observations-js').create();
 
 var observer = observations.createObserver('name', function(value) {
