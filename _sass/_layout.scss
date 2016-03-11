@@ -8,6 +8,10 @@
 
     // Positioning context for the mobile navigation icon
     position: relative;
+
+    .wrapper {
+        linear-gradient(to right, #f6f6f6, #fff 30px, #fff 155px, #f6f6f6 50%);
+    }
 }
 
 .site-title {
