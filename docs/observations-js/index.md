@@ -43,11 +43,17 @@ observations.syncNow();
 #### Observations
 
  * `observations.createObserver(expr, callback, [callbackContext])`
+   - Registers a new observer and callback.
  * `observations.sync([callback])`
+   - Diffs observed objects, calling the registered callback on changed objects on the next sync cycle.
  * `observations.syncNow([callback])`
+   - Explicitly runs the sync cycle on-demand.
  * `observations.afterSync(callback)`
- * `observations.onSync(callback)`
- * `observations.removeOnSync(callback)`
+   - Registers a callback to fire after the next (or current) sync cycle completes.
+ * `observations.onSync(listener)`
+   - Adds a listener that gets run during `sync()`.
+ * `observations.offSync(listener)`
+   - Removes an `onSync` listener.
 
 #### Observer
 
