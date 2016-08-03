@@ -43,6 +43,11 @@ layout: default
 ---
 
 
+---
+layout: default
+---
+
+
 # Observations.js
 
 Observations.js takes a string of simple JavaScript (one-liners, no blocks) and triggers the given callback whenever the
