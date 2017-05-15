@@ -53,6 +53,11 @@ layout: default
 ---
 
 
+---
+layout: default
+---
+
+
 # Computed Properties
 
 Observations.js makes computing object properties easy. Computed properties resolve data using expressions.js and add a
@@ -92,8 +97,8 @@ Whenever data changes the computed properties must be synced with the data. Usin
 allows you to use robust JavaScript expressions in your computed properties. It also allows you to use any data you want
 without requiring special getters and setters or a custom model.
 
-The `observations.sync()` method is what you mostly want to use. It will queue up a data-sync to be run just before the
-next screen render (using `requestAnimationFrame`). You can call this multiple times before the next screen render and
+The `observations.sync()` method is what you mostly want to use. It will queue up a data-sync to be run just after the
+current microtask (using `Promise.resolve()`). You can call this multiple times during the current microtask and
 it will only run the sync once. It is very performant.
 
 Example:
