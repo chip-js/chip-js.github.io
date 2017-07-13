@@ -73,6 +73,11 @@ layout: default
 ---
 
 
+---
+layout: default
+---
+
+
 # Computed Properties
 
 Observations.js makes computing object properties easy. Computed properties resolve data using expressions.js and add a
